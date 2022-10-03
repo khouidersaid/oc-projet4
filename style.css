@@ -95,11 +95,11 @@ body {
     display: flex;
     justify-content: space-between;
     width: auto;
+    padding: 5px;
+
 }
 .col-sm-4 {
     width: 29%;
-    border: solid;
-    border-radius: 15px;
     margin-bottom: 20px;
 }
 h3 {
@@ -160,10 +160,10 @@ h3 {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 80px;
     grid-auto-rows: minmax(100px, auto);
-    width: 100%;
     padding-left: 15%;
+    width: 80%;
+    margin-left: 10%;
 }
 .col-sm-6 img {
     width: 100%;
@@ -171,9 +171,7 @@ h3 {
     margin-top: 20PX;
 }
 .col-sm-6 {
-    border: solid;
-    border-radius: 15px;
-    width: 70%;
+    width: 65%;
 }
 .bloc-contact {
     display: flex;
@@ -222,7 +220,10 @@ h3 {
 .keywords {
     color: hsl(15, 20%, 4%);
     font-size: 20px; 
+    text-align: center;
+
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
     .site-navigation {
         top: 50%;
