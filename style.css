@@ -102,17 +102,18 @@ body {
     width: 29%;
     margin-bottom: 20px;
 }
-h3 {
+h2 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
-.col-sm-4 h3 {
+.col-sm-4 h2 {
     font-size: 25px;
     font-weight: 800;
     display: flex;
     justify-content: center;
+    margin-top: 0px;
     }
 .col-sm-4 P {
     font-size: 25px;
@@ -129,7 +130,6 @@ h3 {
     font-size: 25px;
     font-weight: 600;
     background-color: #ffc300;
-    border: #000000 solid; 
     margin-bottom: 20px;
 }    
 .boss {
@@ -148,7 +148,7 @@ h3 {
 .container-realisation {
     justify-content: center;
 }
-.row-realisation h2 {
+.row-realisation h3 {
     text-align: center;
     font-weight: bold;
     font-size: 25px;
@@ -189,6 +189,12 @@ h3 {
     height: 100%;
     margin: 10px;
 }
+.mg-md {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 20px;
+}
 .creation {
     width: 100%;
 }
@@ -197,7 +203,7 @@ h3 {
 }
 .creation h3 {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 900;
 }
 .tc-white {
     color: #1c1b1a!important;;
@@ -317,20 +323,6 @@ nav .caret {
     margin: 6px -5px 0 0!important;
     float: right;
 }
-
-.mg-md {
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-.mg-lg {
-    margin-top: 10px;
-    margin-bottom: 40px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
 .btn {
     margin: 0 5px 5px 0;
 }
@@ -841,12 +833,11 @@ h4 {
         padding-right: 0;
     }
     .page-contact {
-        border: solid;
         width: 50%;
         display: flex;
         justify-content: center;
         margin-left: 25%;
-        FONT-SIZE: 20px;
+        font-size: 15px;
     }
     .container-nav {
     display: block; 
