@@ -53,6 +53,7 @@ body {
     justify-content: center;
     height: 40px;
     margin-bottom: 20px;
+    
 }
 .text-contact {
     display: flex;
@@ -69,6 +70,8 @@ body {
     align-items: center;
     height: 40px;
     text-decoration: none;
+    font-size: 24px;
+    color: black;
 }
 .col-sm-12 a {
     color: #FFFFFF!important;
