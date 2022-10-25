@@ -176,7 +176,6 @@ h2 {
     color: black;
     font-size: 25px;
     margin-bottom: 40px;
-    font-weight: 700;
 }
 .portfolio {
     display: grid;
@@ -203,6 +202,10 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .projet {
     width: 100%;
@@ -279,6 +282,10 @@ h2 {
     .row-realisation h3 {
         margin-top: 40px;
     }
+    .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
     .portfolio {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -286,6 +293,10 @@ h2 {
         width: 80%;
         margin-left: 10%;
         padding-left: 0%;
+    }
+    .col-sm-12 a {
+        font-size: 17px;
+        text-align: center;
     }
     .services {
         display: grid;
@@ -586,8 +597,6 @@ a {
     font-weight: 400;
 }
 
-
-
 .hero-bloc-text {
     font-size: 60px
 }
@@ -646,7 +655,6 @@ h1 {
 h4 {
     color: #333333!important;
 }
-
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
@@ -676,16 +684,13 @@ h4 {
 .ltc-atomic-tangerine {
     color: #F3976C!important;
 }
-
 .ltc-atomic-tangerine:hover {
     color: #c27956!important;
 }
-
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
 }
-
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
 }
@@ -693,26 +698,13 @@ h4 {
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
 }
-
-
-
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
     width: auto;
 }
-
-
-
-
-
- 
 @media  (min-width: 481px) and (max-width: 767px) {
     .navbar-header img {
         width: 100%;
-    }
-    .row {
-        display: flex;
-        justify-content: center;
     }
     .row-realisation {
         width: 90%;
@@ -728,6 +720,7 @@ h4 {
     .col-sm-12-text-center {
         width: 90%;
         font-size: 23px;
+        margin-left: 5%;
     }
     .portfolio {
         display: grid;
@@ -747,6 +740,9 @@ h4 {
     .col-sm-4 h3 {
         font-size: 17px;
     }
+    .col-sm-12 a {
+        font-size: 17px;
+    }
     .creation h3 {
         font-size: 25px;
     }
@@ -754,16 +750,13 @@ h4 {
         font-size: 25px;
     }
     .col-sm-4 P {
-        font-size: 20px;
+        font-size: 25px;
         text-align: center;
     }
     .container-bloc-lg {
         width: 90%;
     }
-    .white {
-        color: #f5f5f5!important;
-        font-size: 18px;
-    }
+    
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -928,10 +921,12 @@ h4 {
     .services {
         display: block;
     }
-    .row {
+   .row { 
         display: flex;
         justify-content: center;
-    }
+        margin-right: 0px;
+        margin-left: 0px;
+    }  
     .col-sm-12 {
         width: 90%;
     }
@@ -1016,6 +1011,9 @@ h4 {
     }
     .mail {
         display: block;
+    }
+    .cta-hero {
+        font-size: 14px;
     }
     .reseau-social {
         width: auto;
