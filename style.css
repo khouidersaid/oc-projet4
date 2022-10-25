@@ -246,6 +246,11 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+.adresse {
+    padding-left: 20px;
+    font-size: 20px;
+    width: 70%;
+}
 .keywords {
     color: hsl(15, 20%, 4%);
     font-size: 20px; 
@@ -258,6 +263,7 @@ h2 {
     display: grid;
     width: 100%;
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
     .site-navigation {
         top: 50%;
@@ -321,7 +327,6 @@ h2 {
     }
     .col-sm-5 {
         width: 90%;
-        margin-left: 5%;
         padding-top: 40px; 
     }
     .nav > li .dropdown-menu a,
