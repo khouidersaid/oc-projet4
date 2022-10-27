@@ -1013,6 +1013,16 @@ h4 {
         text-align: center;
         
     }
+    .col-sm-5 {
+        margin-top: 10px;
+    }
+    .input {
+        border: solid 1px;
+    }
+    .form-group {
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
     .mail {
         display: block;
     }
